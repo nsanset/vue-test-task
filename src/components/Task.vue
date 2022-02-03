@@ -23,7 +23,7 @@
       </ul>
       
     </div>
-    <div v-else class="tasks--empty animate__animated animate__zoomIn">List empty</div>
+    <div v-else class="tasks--empty animate__animated animate__zoomIn">List empty...</div>
     <div class="tasks--label">label</div>
   </div>
 </template>
