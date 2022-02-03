@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view class="animate__animated animate__fadeIn"/>
   </div>
 </template>
 
 <style lang="scss">
+body {
+  background-color: rgba(228, 228, 228, .2);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

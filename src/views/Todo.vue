@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="Todo">
     <TaskList/>
   </div>
 </template>
@@ -9,7 +9,7 @@
 import TaskList from '@/components/TaskList.vue'
 import { mapState } from 'vuex'
 export default {
-  name: 'Home',
+  name: 'Todo',
   components: {
     TaskList
   },

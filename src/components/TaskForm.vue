@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'TaskForm',
   data () {
     return {
       buttonText: 'Add item',
@@ -41,9 +42,9 @@ export default {
   height: 50px;
 }
 input[type=text], select {
-  position: relative;
+  position: absolute;
   top: 8px;
-  left: 20px;
+  left: 0px;
   width: 200px;
   padding: 6px 3px;
   margin: 1px 0;
@@ -53,7 +54,7 @@ input[type=text], select {
   box-sizing: border-box;
   border: none;
 }
-input:focus{
+input:focus {
   outline: none;
 }
 .form .form--btnAddTask {
